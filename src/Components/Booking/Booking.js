@@ -25,7 +25,7 @@ const Booking = () => {
       // serviceName: name,
     };
     // send to the server
-    fetch("http://localhost:5000/booking", {
+    fetch("https://arcane-beach-62066.herokuapp.com/booking", {
       method: "POST",
       headers: {
         "content-type": "application/json",

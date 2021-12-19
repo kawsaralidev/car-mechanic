@@ -7,7 +7,7 @@ const Details = () => {
   const [detail, setDetail] = useState({});
 
   useEffect(() => {
-    fetch(`http://localhost:5000/services/${Id}`)
+    fetch(`https://arcane-beach-62066.herokuapp.com/services/${Id}`)
       .then((res) => res.json())
       .then((data) => setDetail(data));
   }, []);

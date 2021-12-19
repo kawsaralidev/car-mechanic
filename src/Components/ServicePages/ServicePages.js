@@ -5,7 +5,7 @@ const ServicePages = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    const url = "http://localhost:5000/services";
+    const url = "https://arcane-beach-62066.herokuapp.com/services";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setServices(data));

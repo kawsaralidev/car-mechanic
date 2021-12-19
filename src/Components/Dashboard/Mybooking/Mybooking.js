@@ -8,7 +8,7 @@ const Mybooking = () => {
   const [booking, setBooking] = useState([]);
 
   useEffect(() => {
-    const url = `http://localhost:5000/booking?email=${user.email}`;
+    const url = `https://arcane-beach-62066.herokuapp.com/booking?email=${user.email}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setBooking(data));
