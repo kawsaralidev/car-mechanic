@@ -17,6 +17,7 @@ import Register from "./Components/Login/Register";
 import Notfound from "./Components/Notfound/Notfound";
 import Home from "./Components/Pages/Home/Home/Home";
 import Navbars from "./Components/Pages/Navbars/Navbars";
+import Payment from "./Components/Payment/Payment";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import ServicePages from "./Components/ServicePages/ServicePages";
 
@@ -35,6 +36,7 @@ function App() {
             <Route path="/details/:Id" element={<Details></Details>}></Route>
             <Route path="/mybooking" element={<Mybooking></Mybooking>}></Route>
             <Route path="/aboutus" element={<AboutUs></AboutUs>}></Route>
+            <Route path="/payment" element={<Payment></Payment>}></Route>
 
             <Route
               path="/dashboard"

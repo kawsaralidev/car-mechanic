@@ -39,7 +39,7 @@ const MyBook = (props) => {
             <h5>$ {phone} </h5>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12">
-            <Button as={Link} to="/success" className="btn-success">
+            <Button as={Link} to="/payment" className="btn-success">
               Payment
             </Button>
             <Button onClick={() => handleDelete(_id)} className="btn-danger">
