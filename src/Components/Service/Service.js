@@ -11,8 +11,25 @@ const Service = ({ service }) => {
     navigate("/booking");
   };
   return (
-    <div className=" col-lg-4 col-sm-12 ">
-      <div className="m-3  rounded service-style">
+    <div className=" col-lg-12 col-sm-12 ">
+      <div className="row col-lg-12 rounded service-style col-sm-12">
+        <div className="col-lg-5">
+          <img className="w-100" src={img} alt="" />
+        </div>
+        <div className="col-lg-7 text-start ">
+          <h4 className=" ">{name}</h4>
+          <p className="">{description.slice(0, 30)}</p>
+          <h5 className="text-info">{price}</h5>
+          <Link to={`/details/${_id}`}>
+            <button className="service-btn mx-3 rounded ">Details</button>
+          </Link>
+          <Button onClick={handleBooking} className="service-btn w-25 mx-3 rounded ">
+            Booking
+          </Button>
+        </div>
+      </div>
+
+      {/* <div className="m-3  rounded service-style">
         <img className=" service rounded w-100" src={img} alt="" />
         <div className="pb-3">
           <h5> {name}</h5>
@@ -25,7 +42,7 @@ const Service = ({ service }) => {
             Booking
           </Button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

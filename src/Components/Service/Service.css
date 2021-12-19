@@ -6,13 +6,14 @@
 }
 .service-style {
   background-color: rgb(19, 18, 18);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .service-btn {
   background-color: rgb(15, 219, 255);
   border: none;
   padding: 7px;
   font-weight: 600;
+  color: black;
 }
 .service-btn:hover {
   background-color: rgb(0, 0, 0);
@@ -22,5 +23,5 @@
   color: white;
 }
 .service-style img {
-  height: 230px;
+  height: 160px;
 }

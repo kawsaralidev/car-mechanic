@@ -5,7 +5,9 @@ import work from "../../images/work.jpg";
 const Works = () => {
   return (
     <div>
-      <h1 className="my-5">Wheel Works</h1>
+      <h1 className="my-5">
+        Wheel <span className="text-info"> Works</span>
+      </h1>
       <div className="bg-dark">
         <div className="container">
           <div className="row ">

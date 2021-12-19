@@ -12,9 +12,11 @@ const ServicePages = () => {
   }, []);
   return (
     <div>
-      <h1 className="text-info my-5">Our Best Services</h1>
-      <div className="services  container">
-        <div className=" services-container row">
+      <h1 className=" my-5">
+        Our Best <span className="text-info"> Services</span>
+      </h1>
+      <div className="  container">
+        <div className="  row">
           {services.map((service) => (
             <ServicePage key={service.key} service={service}></ServicePage>
           ))}

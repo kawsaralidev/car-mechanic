@@ -6,7 +6,9 @@ import choose3 from "../../images/choose/choose 3.png";
 const ChooseUs = () => {
   return (
     <div>
-      <h1 className="text-dark my-5">Why Choose Us</h1>
+      <h1 className="my-5">
+        Why <span className="text-info">Choose</span> Us
+      </h1>
       <h5 className="my-2 text-center text-info">
         We are one of the leading auto repair shops serving customers in Tucson. <br /> All mechanic services are performed by highly
         qualified mechanics.

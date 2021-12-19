@@ -1,5 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import icon1 from "../../images/icon1.png";
+import icon2 from "../../images/icon2.png";
+import icon3 from "../../images/icon3.png";
 
 const Footer = () => {
   return (
@@ -8,6 +11,9 @@ const Footer = () => {
         <Row>
           <Col xs={12} md={6} lg={7} className="text-start">
             <h3>Ali Car Services</h3>
+            <img style={{ width: "60px", height: "60px" }} src={icon1} alt="" />
+            <img style={{ width: "60px", height: "60px" }} src={icon2} alt="" />
+            <img style={{ width: "60px", height: "60px" }} src={icon3} alt="" />
           </Col>
 
           <Col xs={12} md={6} lg={5}>
@@ -29,7 +35,7 @@ const Footer = () => {
                 <br />
                 <strong>View all cities</strong>
                 <br />
-                <strong>Turisum near me</strong>
+                <strong>Car Service near me</strong>
               </Col>
             </Row>
             <small>copy©right ali car service</small>

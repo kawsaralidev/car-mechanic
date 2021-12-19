@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import AboutUs from "./Components/AboutUs/AboutUs";
 import AuthProvider from "./Components/AuthProvider/AuthProvider";
 import Booking from "./Components/Booking/Booking";
 import AddService from "./Components/Dashboard/AddService/AddService";
@@ -33,6 +34,7 @@ function App() {
             <Route path="/servicepages" element={<ServicePages></ServicePages>}></Route>
             <Route path="/details/:Id" element={<Details></Details>}></Route>
             <Route path="/mybooking" element={<Mybooking></Mybooking>}></Route>
+            <Route path="/aboutus" element={<AboutUs></AboutUs>}></Route>
 
             <Route
               path="/dashboard"

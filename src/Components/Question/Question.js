@@ -5,7 +5,9 @@ const Question = () => {
   return (
     <div className="container">
       <div className="row ">
-        <h1 className="my-4">Popular Question</h1>
+        <h1 className="my-4">
+          Popular <span className="text-info">Question</span>
+        </h1>
         <div className="col-lg-6 col-sm-12 ">
           <div className="text-start">
             <p>

@@ -10,7 +10,7 @@ const MyBook = (props) => {
     console.log(id);
     const proced = window.confirm("Are you sure? you want to delete");
     if (proced) {
-      const url = `https://localhost5000.com/booking/${id}`;
+      const url = `http://localhost:5000/booking/${id}`;
       fetch(url, {
         method: "DELETE",
       })
