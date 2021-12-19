@@ -1,0 +1,51 @@
+[
+    {
+      "name": "ENGINE DIAGNOSTIC",
+      "description":
+        "We offer a full range of garage services to vehicle owners in Tucson. Our professionals know how to handle a wide range of car services. Whether you drive a passenger car or medium sized truck or SUV, our mechanics strive to ensure that your vehicle will be performing at its best before leaving our car shop.",
+      "price": "$500",
+      "img": "https://quanticalabs.com/Carservice/Template/images/samples/390x260/image_01.jpg"
+    },
+    {
+      "name": "WHEEL ALIGNMENT",
+      "description":
+        "We offer a full range of garage services to vehicle owners in Tucson. Our professionals know how to handle a wide range of car services. Whether you drive a passenger car or medium sized truck or SUV, our mechanics strive to ensure that your vehicle will be performing at its best before leaving our car shop.",
+      "price": "$300",
+      "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+    },
+    {
+      "name": "OIL CHANGING",
+      "description":
+        "We offer a full range of garage services to vehicle owners in Tucson. Our professionals know how to handle a wide range of car services. Whether you drive a passenger car or medium sized truck or SUV, our mechanics strive to ensure that your vehicle will be performing at its best before leaving our car shop.",
+      "price": "$300",
+      "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+    },
+    {
+      "name": "BRAKE REPARING",
+      "description":
+        "We offer a full range of garage services to vehicle owners in Tucson. Our professionals know how to handle a wide range of car services. Whether you drive a passenger car or medium sized truck or SUV, our mechanics strive to ensure that your vehicle will be performing at its best before leaving our car shop.",
+      "price": "$400",
+      "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+    },
+    {
+      "name": "WASH AND GLASSING",
+      "description":
+        "We offer a full range of garage services to vehicle owners in Tucson. Our professionals know how to handle a wide range of car services. Whether you drive a passenger car or medium sized truck or SUV, our mechanics strive to ensure that your vehicle will be performing at its best before leaving our car shop.",
+      "price": "$300",
+      "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
+    },
+    {
+      "name": "AIR CONDITINONING",
+      "description":
+        "We offer a full range of garage services to vehicle owners in Tucson. Our professionals know how to handle a wide range of car services. Whether you drive a passenger car or medium sized truck or SUV, our mechanics strive to ensure that your vehicle will be performing at its best before leaving our car shop.",
+      "price": "$500",
+      "img": "https://quanticalabs.com/Carservice/Template/images/samples/390x260/image_04.jpg"
+    },
+    {
+      "name": "BELTS AND HOSES",
+      "description":
+        "We offer a full range of garage services to vehicle owners in Tucson. Our professionals know how to handle a wide range of car services. Whether you drive a passenger car or medium sized truck or SUV, our mechanics strive to ensure that your vehicle will be performing at its best before leaving our car shop.",
+      "price": "$300",
+      "img": "https://quanticalabs.com/Carservice/Template/images/samples/390x260/image_03.jpg"
+    }
+  ]
