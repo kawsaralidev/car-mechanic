@@ -5,7 +5,7 @@ import useFirebase from "../Hooks/useFirebase";
 
 const Register = () => {
   const [loginData, setLoginData] = useState({});
-  const { user, registerUser, signInWithGoogle, error } = useFirebase();
+  const { registerUser, signInWithGoogle } = useFirebase();
   const navigate = useNavigate();
 
   const handleOnChange = (e) => {
@@ -22,8 +22,11 @@ const Register = () => {
       alert("your password did not match");
     }
     registerUser(loginData.email, loginData.password, loginData.name, navigate);
-
+    alert("register successfull");
     e.preventDefault();
+  };
+  const handleGoogleSignIn = () => {
+    signInWithGoogle(navigate);
   };
   return (
     <div className="container  mt-5">
@@ -54,22 +57,16 @@ const Register = () => {
             <br />
             <Button type="submit" className="w-50 btn-banner mb-3">
               Register
-            </Button>{" "}
+            </Button>
             <br />
             <Link to="/login">
               <Button variant="text">Already Register? Please Login</Button>
-            </Link>{" "}
+            </Link>
             <br />
-            <Button onClick={signInWithGoogle} className="w-50 btn-banner mb-3">
+            <Button onClick={handleGoogleSignIn} className="w-50 btn-banner mb-3">
               Google Sign In
             </Button>
           </form>
-          {/* {user?.email && (
-            <div className="alert alert-success" role="alert">
-              Register successfully
-            </div>
-          )}
-          {error && <Alert>this is an error</Alert>} */}
         </div>
       </div>
     </div>

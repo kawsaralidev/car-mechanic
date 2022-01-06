@@ -8,10 +8,12 @@ const Navbars = () => {
   const { user, logOut } = useFirebase();
   return (
     <div>
-      <Navbar bg="dark" variant="light" sticky="top" collapseOnSelect expand="lg">
+      <Navbar style={{ backgroundColor: "rgb(0, 189, 214)" }} variant="light" sticky="top" collapseOnSelect expand="lg">
         <Container>
           <Navbar.Brand to="#home">
-            <span className="text-info fw-bold fs-3">Ali Car Service</span>
+            <h3 className=" fw-bold fs-3">
+              <span style={{ color: "red" }}>Ali</span> Car Service
+            </h3>
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">

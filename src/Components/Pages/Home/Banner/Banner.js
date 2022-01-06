@@ -7,7 +7,7 @@ import banner3 from "../../../../images/Banner/Banner_3.jpg";
 
 const Banner = () => {
   return (
-    <div className="carosel">
+    <div className="carousel">
       <Carousel>
         <Carousel.Item>
           <img className="d-block " src={banner1} alt="First slide" />
@@ -23,7 +23,6 @@ const Banner = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block " src={banner2} alt="Second slide" />
-
           <Carousel.Caption>
             <div style={{ marginBottom: "150px" }}>
               <h3 className="text-white my-4 fs-1 fw-bold">EXPERT TECHNICIANS COMPETITIVE PRICES</h3>
