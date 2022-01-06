@@ -16,9 +16,9 @@ const Service = ({ service }) => {
         <div className="col-lg-5">
           <img className="w-100" src={img} alt="" />
         </div>
-        <div className="col-lg-7 text-start ">
-          <h4 className=" ">{name}</h4>
-          <p className="">{description.slice(0, 30)}</p>
+        <div className="col-lg-7 py-2 text-style text-start ">
+          <h4 >{name}</h4>
+          <p >{description.slice(0, 30)}</p>
           <h5 className="text-info">{price}</h5>
           <Link to={`/details/${_id}`}>
             <button className="service-btn mx-3 rounded ">Details</button>
@@ -28,21 +28,6 @@ const Service = ({ service }) => {
           </Button>
         </div>
       </div>
-
-      {/* <div className="m-3  rounded service-style">
-        <img className=" service rounded w-100" src={img} alt="" />
-        <div className="pb-3">
-          <h5> {name}</h5>
-
-          <h5 className="text-info">{price}</h5>
-          <Link to={`/details/${_id}`}>
-            <button className="service-btn mx-3 rounded ">Details</button>
-          </Link>
-          <Button onClick={handleBooking} className="service-btn w-25 mx-3 rounded ">
-            Booking
-          </Button>
-        </div>
-      </div> */}
     </div>
   );
 };

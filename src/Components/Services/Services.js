@@ -14,7 +14,7 @@ const Services = () => {
   return (
     <div className="container">
       <h1 className=" my-5">
-        Our Best <span className="text-info">Services</span>
+        Our Best <span style={{ color: " rgb(253, 42, 87)" }}>Services</span>
       </h1>
       <div className=" row services d-flex ">
         <div className="col-lg-6">
@@ -24,7 +24,7 @@ const Services = () => {
             alt=""
           />
           <h3 className=" my-3">
-            Our <span className="text-info">Services</span>
+            Our <span style={{ color: " rgb(253, 42, 87)" }}>Services</span>
           </h3>
           <p className="text-start p-4">
             An auto mechanic is a mechanic with a variety of automobile makes or either in a specific area or in a specific make of
