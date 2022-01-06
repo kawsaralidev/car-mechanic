@@ -6,7 +6,7 @@ const Question = () => {
     <div className="container">
       <div className="row ">
         <h1 className="my-4">
-          Popular <span className="text-info">Question</span>
+          Popular <span style={{ color: " rgb(253, 42, 87)" }}>Question</span>
         </h1>
         <div className="col-lg-6 col-sm-12 ">
           <div className="text-start">

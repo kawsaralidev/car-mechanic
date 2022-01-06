@@ -6,7 +6,7 @@ import icon3 from "../../images/icon3.png";
 
 const Footer = () => {
   return (
-    <div className="bg-dark p-2 text-white  p-5 mt-5">
+    <div style={{ backgroundColor: "rgb(0, 189, 214)" }} className=" p-2 text-white  p-5 mt-5">
       <div className="container">
         <Row>
           <Col xs={12} md={6} lg={7} className="text-start">

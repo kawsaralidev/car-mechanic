@@ -31,13 +31,13 @@ const Navbars = () => {
                 <Nav.Link className="text-white fs-5" as={Link} to="/dashboard">
                   Dashboard
                 </Nav.Link>
-                <Button onClick={logOut} className="text-white fs-5" color="inherit">
+                <Button onClick={logOut} className=" service-btn" className=" fs-5">
                   Logout
                 </Button>
               </>
             ) : (
               <Link to="/register">
-                <Button className="text-white fs-5" color="inherit">
+                <Button className="service-btn" className=" fs-5">
                   Login
                 </Button>
               </Link>

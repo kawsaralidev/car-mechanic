@@ -6,7 +6,7 @@ const Works = () => {
   return (
     <div>
       <h1 className="my-5">
-        Wheel <span className="text-info"> Works</span>
+        Wheel <span style={{ color: " rgb(253, 42, 87)" }}> Works</span>
       </h1>
       <div className="bg-dark">
         <div className="container">

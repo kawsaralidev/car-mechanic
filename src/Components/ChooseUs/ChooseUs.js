@@ -7,7 +7,7 @@ const ChooseUs = () => {
   return (
     <div>
       <h1 className="my-5">
-        Why <span className="text-info">Choose</span> Us
+        Why <span style={{ color: " rgb(253, 42, 87)" }}>Choose</span> Us
       </h1>
       <h5 className="my-2 text-center text-info">
         We are one of the leading auto repair shops serving customers in Tucson. <br /> All mechanic services are performed by highly
